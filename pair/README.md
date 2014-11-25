@@ -1,0 +1,4 @@
+# Pair programming
+
+* Fundamentación.
+* Requirebin.
