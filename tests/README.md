@@ -1,5 +1,11 @@
 # Tests
 
+## Introducción
+## Opciones
+## Fundamentación
+## Documentación
+## Lecturas recomendadas
+
 * Por qué testear.
 * TDD / BDD.
 * Opciones.
@@ -12,3 +18,4 @@
 * Nos invitan a escribir código más claro y preciso.
 
 ## Tests de integración
+* Previenen la inserción de regresiones.
