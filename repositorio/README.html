@@ -4,10 +4,11 @@
     <head>
         
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
         <title>Repositorio de referencia | Introducción</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 1.3.3">
+        <meta name="generator" content="GitBook 1.4.1">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -32,7 +33,7 @@
 
 
         
-    <div class="book" data-level="4" data-basepath=".." data-revision="1417268234886">
+    <div class="book" data-level="4" data-basepath=".." data-revision="1417638265348">
     
 
 <div class="book-summary">
@@ -424,12 +425,13 @@
 <li>Browserify.</li>
 <li>Beefy.</li>
 <li>Tape.</li>
+<li>Testling.</li>
 <li>JsDoc.</li>
 <li>Scripts.</li>
 <li>JsHint.</li>
 <li>JsSc.</li>
 <li>RetireJs.</li>
-<li>Pre commit hook.</li>
+<li>Ghooks.</li>
 <li>Readmetree.</li>
 <li>Mdlint.</li>
 <li>Shrinkwrap.</li>
@@ -437,6 +439,38 @@
 <li>License footprint.</li>
 <li>JsSc JsDoc.</li>
 </ul>
+<p>? Testlingify y Travisify</p>
+<ul>
+<li><input name='quiz-row-8-0' id='quiz-row-8-0-0' type='checkbox'/><label class="quiz-label" for="quiz-row-8-0-0"> blah</label></li>
+</ul>
+<h2 id="scripts">Scripts</h2>
+<p><em>Aprovechando la facilidad de npm para correr scripts personalizados, este repositorio cuenta con una serie de tareas preconfiguradas que lo convierten en un completo entorno de desarrollo.</em></p>
+<h3 id="test">Test</h3>
+<pre><code>npm test
+</code></pre><p>Corre tape via testling para todos los archivos de la carpeta ./tests</p>
+<h3 id="valida">Valida</h3>
+<pre><code>npm run valida
+</code></pre><p>Verifica la calidad de todos los m&oacute;dulos mediante jscs (normas de estilo) y jshint (linter).</p>
+<h3 id="docs">Docs</h3>
+<pre><code>npm run docs
+</code></pre><p>Compila toda la documentaci&oacute;n incluida en el c&oacute;digo utilizando jsdocs.</p>
+<h3 id="desarrollo">Desarrollo</h3>
+<pre><code>npm run desarrollo
+</code></pre><p>Levanta en paralelo los servidores de aplicaci&oacute;n, documentaci&oacute;n, tests y autoayuda con live reload.</p>
+<h3 id="build">Build</h3>
+<pre><code>npm run build
+</code></pre><p>Compila la aplicaci&oacute;n, la documentaci&oacute;n y los tests a sus respectivas carpetas de producci&oacute;n.</p>
+<h3 id="vulnerabilidades">Vulnerabilidades</h3>
+<pre><code>npm run vulnerabilidades
+</code></pre><p>Ejecuta retire en la carpeta raiz del proyecto devolviendo notificaciones con links a los detalles de todas las vulnerabilidades conocidas en las dependencias del proyecto.</p>
+<h3 id="autoayuda">Autoayuda</h3>
+<pre><code>npm run autoayuda
+</code></pre><p>Corre readmetree en la carpeta root del repositorio levantando un servidor que permite navegar todos los readme de todas las dependencias.</p>
+<h2 id="seguimiento-de-tickets">Seguimiento de tickets</h2>
+<p>Para facilitar el seguimiento de tickets de todo el proyecto utilizamos un fork traducido al castellano de Uberstich.
+<a href="http://pci-tdf.github.io/ubersicht/?showOpen=true&amp;showClosed=true&amp;showCommented=true&amp;showUncommented=true&amp;last24Hours=false&amp;repos=repositorio-de-referencia&amp;labels=null&amp;milestones=null&amp;usernames=null#santiagogil" target="_blank">Tickets</a></p>
+<h2 id="somos-aacutegiles">Somos &aacute;giles</h2>
+<p>Se puede acceder al tablero kamban del proyecto en <a href="lkjlj">Hubboard</a>.</p>
 
                     
                     </section>
